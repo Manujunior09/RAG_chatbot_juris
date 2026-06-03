@@ -1,0 +1,11 @@
+flask
+python-dotenv
+sentence-transformers
+chromadb
+ollama
+langchain-text-splitters
+pypdf
+python-docx
+numpy
+torch
+
