@@ -9,10 +9,10 @@
   --surface: #ffffff;
   --surface-2: #f8f9fb;
   --border: #e2e5ea;
-  --accent: #1a56db;
+  --accent: #db811a;
   --accent-light: #eff4ff;
-  --accent-dark: #1340a8;
-  --user-bg: #1a56db;
+  --accent-dark: #134fa8;
+  --user-bg: #1a9edb;
   --user-text: #ffffff;
   --bot-bg: #ffffff;
   --bot-text: #1a1d23;
@@ -20,7 +20,7 @@
   --source-bg: #f8fafc;
   --source-border: #e2e8f0;
   --score-bg: #dcfce7;
-  --score-text: #15803d;
+  --score-text: #15801a;
   --radius: 16px;
   --radius-sm: 8px;
   --shadow-sm: 0 1px 3px rgba(0,0,0,0.08);

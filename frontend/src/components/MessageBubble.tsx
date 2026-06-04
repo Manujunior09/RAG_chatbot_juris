@@ -21,7 +21,7 @@ export default function MessageBubble({ message }: MessageBubbleProps) {
       className={`bubble-row ${isUser ? "bubble-row--user" : "bubble-row--bot"}`}
       initial={{ opacity: 0, y: 16 }}
       animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.25 }}
+      transition={{ duration: 0.400, ease: "easeOut" }}
     >
       {!isUser && (
         <div className="avatar avatar--bot">

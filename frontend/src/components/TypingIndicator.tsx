@@ -7,7 +7,7 @@ export default function TypingIndicator() {
       className="bubble-row bubble-row--bot"
       initial={{ opacity: 0, y: 16 }}
       animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.2 }}
+      transition={{ duration: 0.3 }}
     >
       <div className="avatar avatar--bot">
         <Scale size={16} />

@@ -12,8 +12,8 @@ export default function Header({ onNew }: HeaderProps) {
           <Scale size={22} />
         </div>
         <div>
-          <h1 className="header-title">Assistant Juridique Béninois</h1>
-          <p className="header-subtitle">Code du numérique · Code général des impôts</p>
+          <h1 className="header-title">Assistant Juridique personnel de Manu Junior</h1>
+          <p className="header-subtitle">Code du numérique · Code général des impôts ___ République du Bénin</p>
         </div>
       </div>
       <button className="btn-new" onClick={onNew}>

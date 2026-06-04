@@ -16,7 +16,7 @@ export default function SourcesList({ sources }: SourcesListProps) {
       <button className="sources-toggle" onClick={() => setOpen((o) => !o)}>
         <FileText size={13} />
         {sources.length} source{sources.length > 1 ? "s" : ""} consultée{sources.length > 1 ? "s" : ""}
-        {open ? <ChevronUp size={13} /> : <ChevronDown size={13} />}
+        {open ? <ChevronUp size={14} /> : <ChevronDown size={13} />}
       </button>
       {open && (
         <ul className="sources-list">

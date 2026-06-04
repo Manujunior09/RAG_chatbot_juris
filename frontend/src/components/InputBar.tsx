@@ -39,7 +39,7 @@ export default function InputBar({ onSend, loading }: InputBarProps) {
       <textarea
         ref={textareaRef}
         className="input-textarea"
-        rows={1}
+        rows={2}
         placeholder="Posez votre question sur le Code du numérique ou le Code général des impôts…"
         value={value}
         onChange={(e) => setValue(e.target.value)}
