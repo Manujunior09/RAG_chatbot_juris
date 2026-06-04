@@ -82,8 +82,8 @@
 
 .btn-new:hover {
   background: var(--accent-light);
-  color: var(--accent);
-  border-color: var(--accent);
+  color: var(--accent-dark);
+  border-color: var(--accent-dark);
 }
 
 /* ── Chat window ─────────────────────────────────── */
@@ -304,7 +304,7 @@
 }
 
 .input-textarea:focus {
-  border-color: var(--accent);
+  border-color: var(--accent-dark);
   box-shadow: 0 0 0 3px rgba(26, 86, 219, 0.12);
 }
 
