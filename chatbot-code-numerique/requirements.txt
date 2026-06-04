@@ -1,4 +1,6 @@
-flask
+fastapi
+uvicorn[standard]
+pydantic-settings
 python-dotenv
 sentence-transformers
 chromadb
@@ -8,4 +10,3 @@ pypdf
 python-docx
 numpy
 torch
-
